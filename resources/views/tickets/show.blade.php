@@ -22,10 +22,10 @@
         <a class="p-2 border-2 rounded-md bg-blue-200 text-blue-700 " href="{{ route('index') }}">Volver</a>
     </div>
     <div class="text-[.9em]">
-        <p>Bar Monte Ararat</p>
-        <p>X8222827M</p>
-        <p>C/ CONDE DE LUMIARES 4</p>
-        <p>46019 Valencia</p>
+        <p>NOMBRE NEGOCIO</p>
+        <p>CIF</p>
+        <p>DIRECCIÓN</p>
+        <p>CÓDIGO POSTAL</p>
         <p>{{ Carbon\Carbon::now()->format('d/m/Y H:i') }}</p>
         <p>Ticket nº {{ $ticket->id }}</p>
     </div>
@@ -62,13 +62,6 @@
     </section>
     <br>
     <p>¡Gracias por venir!</p>
-    <p class="text-[.7em]">
-        Շնորհակալություն
-        <br>
-        այցելության
-        <br>
-        համար
-    </p>
     @livewireScripts
     <script type="module">
         window.print();
