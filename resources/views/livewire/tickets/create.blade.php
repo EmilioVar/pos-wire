@@ -16,7 +16,7 @@
             <div class="flex justify-center items-center p-6 mt-5 border-t border-gray-200 rounded-b dark:border-gray-600">
                 <span data-modal-hide="ticketModal"
                     class="text-gray-500 bg-white hover:bg-red-100 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-red-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 mr-3">Cancelar</span>
-                <button data-modal-hide="cobrar" type="submit"
+                <button data-modal-hide="ticketModal" type="submit"
                     class="text-gray-500 bg-white hover:bg-green-100 focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-green-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Cobrar</button>
             </div>
         </div>
