@@ -10,7 +10,7 @@ class Create extends Component
     public function createTable() {
         $tables = Table::all();
 
-        if (count($tables) > 10) {
+        if (count($tables) <= 10) {
             $tables = Table::latest()->first();
             
             Table::create();

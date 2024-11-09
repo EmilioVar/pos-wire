@@ -17,7 +17,7 @@ class CheckReCAPTCHAVerification
     {
         $resp = $next($request);
 
-        if (!session('recaptcha_verified') && !$request->is('verify-recaptcha')) {
+        if (!session('recaptcha_verified') && !$request->routeIs('recaptcha.verify')) {
             return redirect()->route('recaptcha.verify');
         }
 

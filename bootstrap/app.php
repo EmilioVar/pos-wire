@@ -12,7 +12,7 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        $middleware->append(CheckReCAPTCHAVerification::class);
+        // $middleware->append(CheckReCAPTCHAVerification::class);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

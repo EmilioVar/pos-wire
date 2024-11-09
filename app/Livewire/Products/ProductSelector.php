@@ -36,7 +36,7 @@ class ProductSelector extends Component
     
             $this->dispatch('productSelect');
             $this->dispatch('updateTotalAmount');
-            $this->dispatch('renderSelectItemInProuctsTpv',);
+            $this->dispatch('renderSelectItemInProuctsTpv');
         } else {
             dd('seleccione una mesa!');
         }
