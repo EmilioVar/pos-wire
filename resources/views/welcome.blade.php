@@ -29,7 +29,6 @@
         </div>
         <!-- groups -->
         <div id="groups" class="bg-green-400 h-[50vh] col-span-4">
-            <h1 class="">groups</h1>
             <livewire:groups.group-selector :groups="$groups" />
         </div>
         <!-- products -->

@@ -11,6 +11,10 @@ class ProductSelector extends Component
 {
     public $products;
 
+    public function mount() {
+        $this->products = [];
+    }
+
     #[On('groupSelected')]
     public function loadProducts($groupId)
     {
